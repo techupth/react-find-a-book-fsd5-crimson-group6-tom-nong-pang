@@ -7,8 +7,8 @@ function App() {
   const [books, setBooks] = useState([]);
   // console.log("books :>> ", books);
 
-  const [input, setInput] = useState("");
-  // console.log("input :>> ", input);
+  // const [input, setInput] = useState("");
+  // // console.log("input :>> ", input);
 
   const getBooks = async (event) => {
     const value = event.target.value;
